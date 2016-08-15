@@ -11,9 +11,7 @@ figure;
 plot(x,Y,'ko', 'MarkerFaceColor', 'b'); % plot for visualisation
 
 X = [ones(m,1), x]; % add 1s in the first column
-theta = zeros(2,1); % 2x1 matrix with inital elements zero
-
-cost(X,Y,m, theta) %prints inital cost
+cost(X,Y,)
 
 end
 

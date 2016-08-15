@@ -25,7 +25,7 @@ itr = 10; % number of iterations
 
 [theta, theta_history, j_history] = gradient_descent(X, Y, theta, alpha, itr,m);
 
-fprintf(strcat('Final cost : ', num2str(cost(X,Y,m, theta)), ' ')); %prints final cost
+disp(strcat('Final cost : ', num2str(cost(X,Y,m, theta)), ' ')); %prints final cost
 
 figure;
 plot(1:itr, j_history); % plot costs during iterations
